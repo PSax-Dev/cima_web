@@ -1,0 +1,2 @@
+import { motion } from 'framer-motion';
+export default function SectionTitle({eyebrow,title,description,align='left'}){return <motion.div className={`section-title ${align==='center'?'center':''}`} initial={{opacity:0,y:25}} whileInView={{opacity:1,y:0}} viewport={{once:true,amount:.2}} transition={{duration:.55}}><span className="eyebrow">{eyebrow}</span><h2>{title}</h2>{description&&<p>{description}</p>}</motion.div>}
