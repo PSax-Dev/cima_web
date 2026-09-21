@@ -1,9 +1,9 @@
 export const company = {
   name: 'CIMA Technical Ltd',
   phone: '+234 9037769539',
-  address: '545 Port-Harcourt Road, Aba, Abia State, Nigeria',
+  address: '#545 Port-Harcourt Road, Aba, Abia State, Nigeria',
   email: 'cimatechnical@gmail.com',
-  hours: 'Monday - Saturday @ 9 AM - 06 PM',
+  hours: 'Monday - Saturday @ 9 AM - 6 PM',
   whatsapp: '2349037769539'
 };
 
